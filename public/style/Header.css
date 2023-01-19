@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h4{
+    padding-left: 10px;
+}
+.home{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.search {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.search a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.category {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.category a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.cart{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.cart a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.history{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.history a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.profile{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.profile a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.right{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonAdd {
+    background-color: #D7E436;
+    border-radius: 7px;
+}
+
+.buttonAdd:hover a{
+    color: white;
+    border-color: black;
+}
+
+.buttonAdd a{
+    text-decoration: none;
+    color: #000;
+}
+
+.title h4
+{
+    color: #D7E436;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.option{
+    display: flex;
+    font-size: 25px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.btn-logout button:hover {
+    color: white;
+    border-color: black;
+}
