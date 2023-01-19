@@ -8,7 +8,7 @@ Anggota Kelompok
 
 Cara menjalankan program:
 1.        composer update
-2.        php artisan migrate:fresh –seed
+2.        php artisan migrate:fresh --seed
 3.        php artisan storage:link
 4.        php artisan serve
 
