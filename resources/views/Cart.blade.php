@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('contents')
-{{-- <link rel="stylesheet" href="style/background.css"> --}}
+<link rel="stylesheet" href="style/cart.css">
 <div style="padding-top: 150px;">
     <h1 class="text-center p-4">My Cart</h1>
 </div>
@@ -30,9 +30,9 @@
     </div>
 </div>
 <div class="d-flex justify-content-end m-5">
-    <div class="d-flex justify-content-end fs-4 me-5">
+    <div class="d-flex justify-content-end fs-4 me-5 btn-co">
             Total Price: {{$english_format_number = number_format($total)}}
-            <button class= "btn btn-primary ms-5" onclick="window.location.href='/Checkout'">Check Out({{$qty}})</button>
+            <button class="btn ms-3" style="background-color: #D7E436 !important; cursor:pointer; font-weight:bold" onclick="window.location.href='/Checkout'">Check Out</button>
     </div>
 </div>
 @else
