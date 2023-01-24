@@ -31,7 +31,7 @@
 </div>
 <div class="d-flex justify-content-end m-5">
     <div class="d-flex justify-content-end fs-4 me-5 btn-co">
-            Total Price: {{$english_format_number = number_format($total)}}
+            Total Price: Rp {{$english_format_number = number_format($total)}}
             <button class="btn ms-3" style="background-color: #D7E436 !important; cursor:pointer; font-weight:bold" onclick="window.location.href='/Checkout'">Check Out</button>
     </div>
 </div>

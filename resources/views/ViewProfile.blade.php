@@ -9,12 +9,13 @@
                     <img src="{{asset('Images/ProfilePicture.png')}}" width="100" class="rounded-circle">
                 </div>
                 <div class="text-center mt-3">
-                    <span class="bg-secondary p-1 px-4 rounded text-white">
-                        @if(!$profile->isAdmin)
-                            Member
-                        @else
-                            Admin
-                        @endif
+                    @if(!$profile->isAdmin)
+                        <span class="bg-primary p-1 px-4 rounded text-white">
+                        Member
+                    @else
+                        <span class="bg-danger p-1 px-4 rounded text-white">
+                        Admin
+                    @endif
                     </span>
                     <h5 class="mt-2 mb-0">{{$profile->name}}</h5>
                     <div class="px-4 mt-1">
