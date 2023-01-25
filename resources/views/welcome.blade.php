@@ -25,7 +25,7 @@
         </div>
         <div class = "main">
             <div class = "welcome">
-                <h3 class="fw-semibold fst-italic">Online Boutique That Provides You with Various Clothes to Suit Your Various Activities</h3>
+                <h3 class="fw-semibold fst-italic">Online Clothes Store That Provides You with Various Clothes to Suit Your Various Activities</h3>
             </div>
         </div>
 
